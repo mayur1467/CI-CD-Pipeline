@@ -1,2 +1,5 @@
-# CI-CD-Pipeline
-CI/CD Pipeline with GitLab or Jenkins for Node.js/Python App
+const express = require('express');
+const app = express();
+app.get('/', (req, res) => res.send('Hello from DevOps Node App'));
+app.listen(3000, () => console.log('Server running on port 3000'));# CI-CD-Pipeline
+
